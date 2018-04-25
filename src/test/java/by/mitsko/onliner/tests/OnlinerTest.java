@@ -45,5 +45,7 @@ public class OnlinerTest {
   public void performersList() throws InterruptedException {
 	  List <WebElement> list = st.createSelectedResultList();
 	  Assert.assertTrue(list.size() > 0);
+	  for (WebElement wbe: list)
+		  System.out.println(wbe.getText());
   }
 }
