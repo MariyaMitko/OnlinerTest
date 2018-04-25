@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="My_group_suite">
+	<test name = "OnlinerTestGroups"> 
+		
+		<groups>
+			<run>
+		
+				<include name="checkPage"></include>
+			</run>
+		</groups>
+		<packages>
+			<package name="by.mitsko.onliner.tests.OnlinerTestGroups"></package>
+		</packages>
+	</test>
+
+
+
+</suite>
