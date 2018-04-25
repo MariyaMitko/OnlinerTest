@@ -58,7 +58,7 @@ public class ServicePage extends AbstractPage{
 	
 	public List<WebElement> SelectedResultList() {
 		List<WebElement> resultList = selectedResults;
-		return selectedResults;
+		return resultList;
 	}  
 	
 	@Override
