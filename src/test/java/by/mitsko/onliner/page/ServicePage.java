@@ -21,7 +21,7 @@ public class ServicePage extends AbstractPage{
 	private WebElement service;
 
 	@FindBy(xpath = "//*[@id='service-list']/div[2]/div/div/div[1]/div[1]/div[2]/div/div[2]/div/div/div[11]/div[2]/ul/li[1]/label/span/span[1]")
-	private WebElement computerHelp;
+	private WebElement softwareInstallation;
 	
 	@FindBy(xpath = "//div[@class='service-offers__unit ng-scope']")
 	private List<WebElement> results;	
@@ -47,7 +47,7 @@ public class ServicePage extends AbstractPage{
 	public void selectService () throws InterruptedException{
 		service.click();
 		Thread.sleep(6000);
-		computerHelp.click();
+		softwareInstallation.click();
 		Thread.sleep(6000);
 	}
 	
